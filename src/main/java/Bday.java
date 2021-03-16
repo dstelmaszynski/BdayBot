@@ -8,8 +8,8 @@ public class Bday {
         Scanner input = new Scanner(System.in);
 
         String correctHi = "Hi";
-        String greatings = input.nextLine();
-        if (greatings.equals(correctHi)) {
+        String greetings = input.nextLine();
+        if (greetings.equals(correctHi)) {
             System.out.println("Nice to meet You. So it's Your Bday today?");
         } else {
             System.out.println("Can u at least say 'Hi'??");
